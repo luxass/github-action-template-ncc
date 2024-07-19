@@ -1,6 +1,6 @@
 # github-action-template-ncc
 
-An opinionated github actions template
+An opinionated GitHub Actions Template using [@vercel/ncc](https://github.com/vercel/ncc) for bundling.
 
 ## Try it now!
 
