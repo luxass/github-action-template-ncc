@@ -22,8 +22,8 @@
     "@eslint/js": "10.0.1",
     "@types/node": "25.5.0",
     "@vercel/ncc": "0.38.4",
-    "eslint": "10.0.3",
+    "eslint": "10.6.0",
     "typescript": "5.9.3",
-    "typescript-eslint": "8.57.0"
+    "typescript-eslint": "8.63.0"
   }
 }
