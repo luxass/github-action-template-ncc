@@ -164,6 +164,9 @@ settings:
 
 catalogs:
   dev:
+    '@vercel/ncc':
+      specifier: 0.45.0
+      version: 0.45.0
     oxfmt:
       specifier: 0.76.0
       version: 0.76.0
@@ -173,20 +176,31 @@ catalogs:
     oxlint-tsgolint:
       specifier: 7.0.2005
       version: 7.0.2005
+    typescript:
+      specifier: 6.0.3
+      version: 6.0.3
+  runtime:
+    '@actions/core':
+      specifier: 3.0.1
+      version: 3.0.1
+  types:
+    '@types/node':
+      specifier: 26.6.6
+      version: 26.6.6
 
 importers:
 
   .:
     dependencies:
       '@actions/core':
-        specifier: 3.0.1
+        specifier: catalog:runtime
         version: 3.0.1
     devDependencies:
       '@types/node':
-        specifier: 26.6.6
+        specifier: catalog:types
         version: 26.6.6
       '@vercel/ncc':
-        specifier: 0.45.0
+        specifier: catalog:dev
         version: 0.45.0
       oxfmt:
         specifier: catalog:dev
@@ -198,7 +212,7 @@ importers:
         specifier: catalog:dev
         version: 7.0.2005
       typescript:
-        specifier: 6.0.3
+        specifier: catalog:dev
         version: 6.0.3
 
 packages:

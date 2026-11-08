@@ -18,15 +18,15 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@actions/core": "3.0.1"
+    "@actions/core": "catalog:runtime"
   },
   "devDependencies": {
-    "@types/node": "26.6.6",
-    "@vercel/ncc": "0.45.0",
+    "@types/node": "catalog:types",
+    "@vercel/ncc": "catalog:dev",
     "oxfmt": "catalog:dev",
     "oxlint": "catalog:dev",
     "oxlint-tsgolint": "catalog:dev",
-    "typescript": "6.0.3"
+    "typescript": "catalog:dev"
   },
   "packageManager": "pnpm@12.17.0"
 }
