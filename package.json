@@ -28,5 +28,5 @@
     "oxlint-tsgolint": "catalog:dev",
     "typescript": "6.0.3"
   },
-  "packageManager": "pnpm@12.15.0"
+  "packageManager": "pnpm@12.17.0"
 }
