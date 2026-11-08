@@ -21,7 +21,7 @@
     "@actions/core": "3.0.1"
   },
   "devDependencies": {
-    "@types/node": "25.5.0",
+    "@types/node": "26.6.6",
     "@vercel/ncc": "0.45.0",
     "oxfmt": "catalog:dev",
     "oxlint": "catalog:dev",
